@@ -5,13 +5,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="w-screen h-screen bg-blue-100 grid justify-center">
       <div>
-        <img src={bz_png} className="image_bz" alt="React logo" width="250px" height="250px" />
+        <img src={bz_png} className="rounded-full" alt="React logo" width="250px" height="250px" />
       </div>
-      <h1>Boris Zambrano</h1>
+      <h1 className='text-6xl'>Boris Zambrano</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button className='rounded-lg bg-violet-600 p-1 text-lg uppercase cursor-pointer hover:bg-violet-800' onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
