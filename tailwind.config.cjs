@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'grotesk': ['Familjen Grotesk', 'system-ui']
+    }
   },
   plugins: [],
 }
