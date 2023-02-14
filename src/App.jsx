@@ -7,10 +7,10 @@ function App() {
       <div className='md:w-full'>
         <img src={bz_png} alt="Picture of Boris Zambrano" width="auto" height="auto" className='grayscale hover:grayscale-0 ease-in-out duration-300 md:object-cover md:h-screen md:w-full' />
       </div>
-      <div className='grid gap-2 p-10 md:p-5 md:w-full md:col-start-2 md:col-end-4 md:relative md:ml-[120px]'>
+      <div className='grid gap-8 p-10 md:p-5 md:w-full md:col-start-2 md:col-end-4 md:relative md:ml-[120px]'>
         <div>
-          <h1 className='text-3xl mb-5 tracking-tight font-normal text-neutral-900 dark:text-neutral-100 xl:text-6xl xl:tracking-tight'>I’m Boris Zambrano, a Systems Engineer &amp; development coordinator</h1>
-          <p className='text-neutral-400 text-lg font-medium'>I’m currently the co-founder and CEO of Liveblocks, a company building the collaboration engine of the internet. Before that, I was running Easee, a web animation tool for designers that was acquired in April 2016 by InVision. And that eventually led me to work on design systems and tooling at Messenger. I also run Gifmock, a tool used by thousands of people to create high-quality GIFs.</p>
+          <h1 className='text-3xl mb-5 tracking-tight font-normal text-neutral-900 dark:text-neutral-100 xl:text-6xl xl:tracking-tight'>I’m Boris Zambrano, a Systems Engineer &amp; developer</h1>
+          <p className='text-neutral-400 text-lg font-medium'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
         </div>
         <div className='flex gap-8'>
           <a href='https://www.linkedin.com/in/boris-zambrano-suarez-104b4121a/' target="_blank" className='text-neutral-100 flex items-center gap-2'>
